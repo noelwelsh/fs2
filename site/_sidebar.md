@@ -2,6 +2,14 @@
   - [Install](getstarted/install.md)
   - [Example](getstarted/example.md)
 
+- Guide
+  - [Introduction](guide/index.md)
+  - [Streams are Programs](guide/programs.md)
+  - [Effects are Explicit](guide/effects.md)
+  - [Values and Demand](guide/value-and-demand.md)
+  - [Pipes are Reusable Fragments](guide/pipes.md)
+  - [Be Aware of Diamonds](guide/diamonds.md)
+  - [Chunks Optimize Performance](guide/chunks.md)
 - [Guide](guide.md)
 - [Concurrency Primitives](concurrency-primitives.md)
 - [I/O](io.md)
