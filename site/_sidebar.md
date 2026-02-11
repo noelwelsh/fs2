@@ -2,7 +2,7 @@
   - [Install](getstarted/install.md)
   - [Example](getstarted/example.md)
 
-- Guide
+- Core Concepts
   - [Introduction](guide/index.md)
   - [Streams are Programs](guide/programs.md)
   - [Effects are Explicit](guide/effects.md)
@@ -10,6 +10,9 @@
   - [Pipes are Reusable Fragments](guide/pipes.md)
   - [Be Aware of Diamonds](guide/diamonds.md)
   - [Chunks Optimize Performance](guide/chunks.md)
+  - [Concurrency is Explicit](guide/concurrency.md)
+  - [Scopes Manage Resources](guide/resources.md)
+  - [Error Handling](guide/errors.md)
 - [Guide](guide.md)
 - [Concurrency Primitives](concurrency-primitives.md)
 - [I/O](io.md)

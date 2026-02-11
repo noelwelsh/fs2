@@ -4,7 +4,6 @@ FS2 processes elements in chunks rather than one at a time, which significantly 
 
 ```scala mdoc
 import cats.effect.IO
-import cats.effect.unsafe.implicits.global
 import fs2.Chunk
 import fs2.Stream
 import fs2.io.file.Files
@@ -28,7 +27,8 @@ Files.forIO.readAll(Path("/some/file.txt"))
 Stream.chunk(Chunk.array(Array(1, 2, 3, 4, 5)))
   // This works element-wise but internally uses chunks
   .map(_ * 2)  
-  .compile.toList
+  .compile
+  .toList
 ```
 
 Most of the time you don't need to think about chunks, but understanding them helps explain FS2's performance characteristics.
