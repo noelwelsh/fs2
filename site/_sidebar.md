@@ -13,6 +13,7 @@
   - [Concurrency is Explicit](guide/concurrency.md)
   - [Scopes Manage Resources](guide/resources.md)
   - [Error Handling](guide/errors.md)
+  - [Finalization and Interruption ](guide/interruption.md)
 - [Guide](guide.md)
 - [Concurrency Primitives](concurrency-primitives.md)
 - [I/O](io.md)
